@@ -1,0 +1,15 @@
+GT4500,2,0.0,3,0.0
+TORPEDO,SINGLE  # should have fiered from secondary -> success
+TORPEDO,SINGLE  # should have fiered from primary -> success
+TORPEDO,SINGLE  # should have fiered from secondary -> success
+TORPEDO,SINGLE  # should have fiered from primary -> success
+TORPEDO,SINGLE  # should have fiered from secondary -> success
+TORPEDO,SINGLE  # should have fiered from primary -> fail
+TORPEDO,SINGLE  # should have fiered from primary -> fail
+TORPEDO,SINGLE  # should have fiered from primary -> fail
+TORPEDO,SINGLE  # should have fiered from primary -> fail
+GT4500,1,0.0,0,0.0
+TORPEDO,SINGLE  # should have fiered from secondary -> primary
+TORPEDO,SINGLE  # should have fiered from secondary -> fail
+TORPEDO,SINGLE  # should have fiered from secondary -> fail
+TORPEDO,ALL  # should have fiered from secondary -> fail
